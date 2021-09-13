@@ -1,0 +1,21 @@
+.page {
+  padding-bottom: 60px;
+}
+
+.list {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 80px 50px;
+
+  li {
+    width: 290px;
+    margin-bottom: 40px;
+    padding:8px;
+    background-color: #fff;
+    border-radius: 10px;
+    &:nth-last-child(-n + 2) {
+      margin-bottom: 0;
+    }
+  }
+}
